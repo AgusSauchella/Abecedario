@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Abecedario</title>
+  <script>
+
+    var audio = new Audio("Abecedariojava/A.wav"); 
+
+    function Reproducir(nombre) {
+      archivo = "Abecedariojava/"+nombre+".wav" 
+      audio = new Audio(archivo); 
+      audio.play();
+    }
+
+    function Parar() {
+      audio.pause(); 
+      audio.currentTime = 0; 
+    }
+  </script>
+</head>
+
+<body style="background-color:#00aae4 ;">
+<center><h1> Abecedario </h1></center>
+    <tr>
+      <td><img src="Abecedariojava\Abeja.jpg" onmouseover="Reproducir('A')" onmouseout="Parar()" /></td>
+      <td><img src="Abecedariojava\Bebe.jpg" onmouseover="Reproducir('B')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Chancho.jpg" onmouseover="Reproducir('C')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Dedo.jpg" onmouseover="Reproducir('D')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Estrella.jpg" onmouseover="Reproducir('E')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Foca.jpg" onmouseover="Reproducir('F')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Gato.jpg" onmouseover="Reproducir('G')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Hipopotamo.jpg" onmouseover="Reproducir('H')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Iguana.jpg" onmouseover="Reproducir('I')" onmouseout="Parar()"></td>
+    </tr>
+
+    <tr>
+      <td><img src="Abecedariojava\Jirafa.jpg" onmouseover="Reproducir('J')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Koala.jpg" onmouseover="Reproducir('K')" onmouseout="Parar()"></td>
+	  <td><img src="Abecedariojava\Luna.jpg" onmouseover="Reproducir('L')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Mono.jpg" onmouseover="Reproducir('M')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Nariz.jpg" onmouseover="Reproducir('N')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\NNandu.jpg" onmouseover="Reproducir('NN')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Oso.jpg" onmouseover="Reproducir('O')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Perro.jpg" onmouseover="Reproducir('P')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Queso.jpg" onmouseover="Reproducir('Q')" onmouseout="Parar()"></td>
+     
+    </tr>
+
+    <tr>
+	 <td><img src="Abecedariojava\Raton.jpg" onmouseover="Reproducir('R')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Serpiente.jpg" onmouseover="Reproducir('S')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Taladro.jpg" onmouseover="Reproducir('T')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Uva.jpg" onmouseover="Reproducir('U')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Vaca.jpg" onmouseover="Reproducir('V')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Walabi.jpg" onmouseover="Reproducir('W')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Xilofono.jpg" onmouseover="Reproducir('X')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Yaguarete.jpg" onmouseover="Reproducir('Y')" onmouseout="Parar()"></td>
+      <td><img src="Abecedariojava\Zorro.jpg" onmouseover="Reproducir('Z')" onmouseout="Parar()"></td>
+
+    </tr>
+
+  </table>
+</body>
+
+</html>
